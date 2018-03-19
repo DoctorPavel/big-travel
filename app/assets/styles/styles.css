@@ -1,8 +1,13 @@
-$mainBlue: #2f5572;
+@import "normalize.css";
+@import "base/_variables";
+@import "base/_mixins";
+/* Important to move global.css UNDER the files above it to prevent import issues */
+@import "base/_global";
+@import "modules/_large-hero";
+@import "modules/_btn";
+@import "modules/_wrapper";
+@import "modules/_page-section";
+@import "modules/_headline";
+@import "modules/_row";
+@import "modules/_generic-content-container";
 
-body {
-    color: $mainBlue;
-    padding: 25px;
-    margin: 20px;
-    columns: 300px 2;
-}
