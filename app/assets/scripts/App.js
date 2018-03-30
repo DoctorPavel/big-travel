@@ -1,3 +1,5 @@
+import $ from "jquery";
+
 // var $ = require('jquery');
 // var Person = require('./modules/Person');
 // import Person from './modules/Person';
@@ -19,5 +21,12 @@
 // $("h1").remove();
 
 import MobileMenu from './modules/MobileMenu';
+import RevealOnScroll from './modules/RevealOnScroll';
 
 var mobileMenu = new MobileMenu();
+// var revealOnScroll = new RevealOnScroll();
+// Feature Items
+new RevealOnScroll($(".feature-item"), "85%");
+
+// Testimonials
+new RevealOnScroll($(".testimonial"), "65%");
