@@ -60,14 +60,11 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
-<<<<<<< HEAD
-/***/ (function(module, exports) {
-=======
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -11898,9 +11895,8 @@ var Modal = function () {
 
     return Modal;
 }();
->>>>>>> lazyloading
 
-throw new Error("Module build failed: Error: ENOENT: no such file or directory, open 'C:\\Users\\x\\Desktop\\myGit\\big-travel\\package.json'\n    at Object.fs.openSync (fs.js:667:18)\n    at Object.fs.readFileSync (fs.js:572:33)\n    at ConfigChainBuilder.addConfig (C:\\Users\\x\\Desktop\\myGit\\big-travel\\node_modules\\babel-core\\lib\\transformation\\file\\options\\build-config-chain.js:146:32)\n    at ConfigChainBuilder.findConfigs (C:\\Users\\x\\Desktop\\myGit\\big-travel\\node_modules\\babel-core\\lib\\transformation\\file\\options\\build-config-chain.js:102:30)\n    at buildConfigChain (C:\\Users\\x\\Desktop\\myGit\\big-travel\\node_modules\\babel-core\\lib\\transformation\\file\\options\\build-config-chain.js:61:13)\n    at OptionManager.init (C:\\Users\\x\\Desktop\\myGit\\big-travel\\node_modules\\babel-core\\lib\\transformation\\file\\options\\option-manager.js:354:58)\n    at File.initOptions (C:\\Users\\x\\Desktop\\myGit\\big-travel\\node_modules\\babel-core\\lib\\transformation\\file\\index.js:212:65)\n    at new File (C:\\Users\\x\\Desktop\\myGit\\big-travel\\node_modules\\babel-core\\lib\\transformation\\file\\index.js:135:24)\n    at Pipeline.transform (C:\\Users\\x\\Desktop\\myGit\\big-travel\\node_modules\\babel-core\\lib\\transformation\\pipeline.js:46:16)\n    at transpile (C:\\Users\\x\\Desktop\\myGit\\big-travel\\node_modules\\babel-loader\\lib\\index.js:50:20)");
+exports.default = Modal;
 
 /***/ })
 /******/ ]);
