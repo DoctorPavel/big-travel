@@ -11,6 +11,7 @@
     "lazysizes": "^4.0.2",
     "normalize.css": "^8.0.0",
     "waypoints": "^4.0.1"
+    
   },
   "devDependencies": {
     "autoprefixer": "^7.1.6",
