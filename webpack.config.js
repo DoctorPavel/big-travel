@@ -8,6 +8,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, "./app/temp/scripts"),
         filename: "[name].js"
+        
     },
     module: {
         loaders: [

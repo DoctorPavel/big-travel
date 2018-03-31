@@ -4,7 +4,6 @@ import RevealOnScroll from './modules/RevealOnScroll';
 import StickyHeader from './modules/StickyHeader';
 import Modal from './modules/Modal';
 
-
 var mobileMenu = new MobileMenu();
 // var revealOnScroll = new RevealOnScroll();
 // Feature Items
