@@ -94,8 +94,8 @@
         }
     }
 
-    /* Begin Qeual Height Rulkes */
-    &--equal-height-at-medium {
+    /* Begin Equal Height Rulkes */
+    .flexbox &--equal-height-at-medium {
         @mixin atMedium {
             display: flex;
         }
@@ -106,7 +106,7 @@
         }
     }
 
-    &--equal-height-at-large {
+    .flexbox &--equal-height-at-large {
         @mixin atLarge {
             display: flex;
         }
